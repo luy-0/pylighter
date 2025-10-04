@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug grid_strategy.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/grid_strategy.py",
+            "args": ["--dry-run", "--symbol", "BTC"],
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
