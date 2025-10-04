@@ -617,7 +617,7 @@ class DynamicVolatilityGridReaper:
         try:
             response = await self.lighter.candlesticks(
                 self.symbol,
-                resolution="1h",
+                resolution="5m",
                 count_back=self.candle_lookback,
                 set_timestamp_to_end=False,
             )
